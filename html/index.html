@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="main_container">
+
+
+            <h1>Welcome to search GitHub page</h1>
+            <p>By clicking on search button you can find any content or user in GitHub, which can
+                lead you to their profile. Or even you can put some repos or users in bookmark
+            </p>
+        <div>
+            <form action="/finduser" class="search-bar" method="post">
+                <input type="search" name="search"  required>
+                <button class="search-btn" type="submit">
+                    <span>Search</span>
+                </button>
+            </form>
+        </div>
+    <div>
+        <a href="#">Contact us</a>
+    </div>
+
+
+    <script src="../js/form.js"></script>
+</body>
+
+</html>
