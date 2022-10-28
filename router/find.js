@@ -15,4 +15,7 @@ router.post("/finduser" ,urlencodedParser,(req,res)=>{
 })
 
 
-module.exports = router
+module.exports = {
+    router
+} 
+    
